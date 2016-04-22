@@ -1,0 +1,26 @@
+/**
+ * weebox.css
+ *
+ * @author     沉默王二
+ */
+
+/*  模态层 */
+.dialog-mask {
+	border: 0px;
+	background: #000;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+/* 设置弹出框的内容区域可以竖向滚动，适应超出窗口高度的弹出内容 */
+.weedialog .dialog-content {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.weedialog .dialog-ok,.weedialog .dialog-cancel {
+	margin: 0 10px;
+}
